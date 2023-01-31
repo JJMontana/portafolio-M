@@ -1,0 +1,126 @@
+*{  
+    font-family: 'Inter';
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin left: 10px;
+    width: 5%;
+}
+
+h1{
+    text-align: center;
+    color:#0A3871;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left:80px;
+}
+
+.text-area{
+    border:none;
+    color:#0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background-color:#b9b9b9;
+    text-align: center;
+    border-radius: 2%;
+}
+
+::placeholder{ color: #0A3871; }
+.text-area:focus{
+    outline:none;
+}
+
+.mensaje{
+    background:#b9b9b9;
+    background-image: url("imagenes/casco\,mensaje.png");
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border:1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover{   
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position:absolute;
+    width: 336px;
+    background-color: #0A3871;
+}
+
+.copiar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.informacion{
+    color: #fc0202;
+    font-size: 30px;
+}
+
+footer p{
+    background: rgba(0, 187, 255, 0.7);
+    padding: 20px;
+    color: #0A3871;
+    font-size: .3em;
+    letter-spacing: 3px;
+    animation: copy .5s infinite alternate;
+    text-align: end;
+}
